@@ -426,6 +426,61 @@ section
 {
 	display: block;
 }
+.default_input
+{
+	width: 450px;
+	height: 39px;
+	border: solid 1px #4a4a4a;
+	border-radius: 10px;
+	outline: none;
+	text-align: center;
+	font-size: 16px;
+	color: #2e2e2e;
+	font-weight: 300;
+	box-shadow: 0 0 1px 0px #4a4a4a inset, 0 0 1px 0px #4a4a4a;
+	-webkit-transition: all 200ms ease;
+	-moz-transition: all 200ms ease;
+	-ms-transition: all 200ms ease;
+	-o-transition: all 200ms ease;
+	transition: all 200ms ease;
+}
+.default_input:focus,
+.default_input:hover
+{
+	border-color: #2fce98;
+	box-shadow: 0 0 1px 0px #2fce98 inset, 0 0 1px 0px #2fce98;
+}
+.default_input::-webkit-input-placeholder
+{
+	font-size: 16px !important;
+	font-weight: 300 !important;
+	color: #2e2e2e !important;
+}
+.default_input:-moz-placeholder
+{
+	font-size: 16px !important;
+	font-weight: 300 !important;
+	color: #2e2e2e !important;
+}
+.default_input::-moz-placeholder
+{
+	font-size: 16px !important;
+	font-weight: 300 !important;
+	color: #2e2e2e !important;
+} 
+.default_input:-ms-input-placeholder
+{ 
+	font-size: 16px !important;
+	font-weight: 300 !important;
+	color: #2e2e2e !important;
+}
+.default_input::input-placeholder
+{
+	font-size: 16px !important;
+	font-weight: 300 !important;
+	color: #2e2e2e !important;
+}
+
 .search_input
 {
 	width: 450px;
