@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&display=swap');
+
+.app {
+  width: 100vw;
+  height: 100vh;
+}
+
+header {
+  width: inherit;
+  height: 80px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 50px;
+  border-bottom: 1.5px solid #d0d0d0;
+}
+
+header span {
+  color: #000;
+  font-weight: 600;
+  font-size: 22px;
+}
+
+header div {
+  text-align: center;
+}
+
+header img {
+  width: 100px;
+  height: 50px;
+  position: absolute;
+  right: 15px;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 25px;
+  padding-bottom: 25px;
+}
+
+main div {
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+main div span {
+  text-align: center;
+}
+
+footer {
+  width: inherit;
+  height: 80px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-top: 1.5px solid #d0d0d0; 
+}
+
+footer div {
+  width: inherit;
+  column-gap: 5px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+footer img {
+  width: 25px;
+  height: 25px;
+}
+
+footer a {
+  color: #000;
+  font-weight: 500;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  column-gap: 5px;
+}
+
+footer a:hover {
+  color: #cd201f;
+}
+
+@media screen and (max-width: 890px) {
+  footer span,
+  footer a  {
+    font-size: 14px;
+  }
+
+  footer img {
+    width: 20px;
+    height: 20px;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  header {
+    justify-content: space-between;
+    padding: 0 15px;
+  }
+
+  header span {
+    font-size: 16px;
+  }
+  
+  header img {
+    width: 70px;
+    height: 30px;
+    position: relative;
+    right: 0;
+  }
+
+  main div {
+    width: 300px;
+  }
+
+  main div iframe {
+    width: inherit;
+  }
+
+  main div span {
+    font-size: 14px;
+  }
+}
