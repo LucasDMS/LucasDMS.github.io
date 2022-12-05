@@ -7,7 +7,7 @@
 
 header {
   width: inherit;
-  height: 80px;
+  min-height: 80px;
   position: relative;
   display: flex;
   justify-content: center;
