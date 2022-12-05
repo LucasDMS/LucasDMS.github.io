@@ -96,6 +96,7 @@ function App() {
             Youtube
           </a>
           <span>e aos criadores de conteúdo. Para fins educativos.</span>
+        
         </div>
       </footer>
     </div>
